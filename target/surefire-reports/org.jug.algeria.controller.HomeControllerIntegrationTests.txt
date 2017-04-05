@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.jug.algeria.controller.HomeControllerIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.436 sec - in org.jug.algeria.controller.HomeControllerIntegrationTests

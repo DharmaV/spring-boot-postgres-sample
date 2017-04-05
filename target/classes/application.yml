@@ -1,0 +1,34 @@
+#
+# [ Database Configuration Section ]
+#
+
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:APP_USERS;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false
+#    username: sa
+#    password:
+#server:
+#  port: 9095
+
+spring:
+  datasource:
+    #url: jdbc:postgresql://postgres.cn0on1o6qflc.us-east-1.rds.amazonaws.com:5432/postgres
+    #username: shamnalan
+    #password: October20
+
+    url: jdbc:postgresql://lists.cqxvcagix65u.ap-south-1.rds.amazonaws.com:5432/LISTS
+    username: LISTS
+    password: LISTS6666
+
+    #url: jdbc:postgresql://localhost:5432/postgres
+    #username: postgres
+    #password: spgmi
+    platform: POSTGRESQL
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+server:
+  port: 9095
+
+

@@ -1,0 +1,4 @@
+org\jug\algeria\repository\SavedSetRepository.class
+org\jug\algeria\domain\SavedSet.class
+org\jug\algeria\repository\SavedSetListRepository.class
+org\jug\algeria\domain\SavedSetList.class
